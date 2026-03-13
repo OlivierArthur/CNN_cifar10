@@ -27,7 +27,7 @@ experiments = [
     {
         "name": "Eksperyment_1_prosty",
         "layers": [
-            layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
+            layers.Conv2D(32, (3, 3), activation='relu',padding='same', input_shape=(32, 32, 3)),
             layers.MaxPooling2D((2, 2)),
             layers.Flatten(),
             layers.Dense(64, activation='relu'),
@@ -37,11 +37,11 @@ experiments = [
     {
         "name": "Eksperyment_2_glebszy",
         "layers": [
-            layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
+            layers.Conv2D(32, (3, 3), activation='relu',padding='same', input_shape=(32, 32, 3)),
             layers.MaxPooling2D((2, 2)),
-            layers.Conv2D(64, (3, 3), activation='relu'),
+            layers.Conv2D(64, (3, 3), activation='relu',padding='same'),
             layers.MaxPooling2D((2, 2)),
-            layers.Conv2D(64, (3, 3), activation='relu'),
+            layers.Conv2D(64, (3, 3), activation='relu',padding='same'),
             layers.Flatten(),
             layers.Dense(128, activation='relu'),
             layers.Dense(10)
@@ -50,10 +50,10 @@ experiments = [
     {
         "name": "Eksperyment_3_Dropout",
         "layers": [
-            layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
+            layers.Conv2D(32, (3, 3), activation='relu',padding='same', input_shape=(32, 32, 3)),
             layers.MaxPooling2D((2, 2)),
             layers.Dropout(0.2),
-            layers.Conv2D(64, (3, 3), activation='relu'),
+            layers.Conv2D(64, (3, 3), activation='relu',padding='same'),
             layers.MaxPooling2D((2, 2)),
             layers.Flatten(),
             layers.Dense(64, activation='relu'),
