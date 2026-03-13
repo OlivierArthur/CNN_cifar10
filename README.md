@@ -1,4 +1,4 @@
-Plik kod.ipynb zawiera kod w postaci notebook, plik CNN\_test1.py zawiera ten sam kod.
+Plik kod.py zawiera pobrany kod z colab.
 
 W folderach 'Floder\_z\_eksperyment{i}' znajdują się pliki png z accuracy, loss, val\_loss i val\_accuracy zrobione przez
 
