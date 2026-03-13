@@ -1,8 +1,8 @@
 Plik kod.ipynb zawiera kod w postaci notebook, plik CNN\_test1.py zawiera ten sam kod.
 
-W repozytorium znajdują się podbrane pliki .png z wykresami z MLflow, zrobione przez DagsHub.
+W folderach 'Floder\_z\_eksperyment{i}' znajdują się pliki png z accuracy, loss, val\_loss i val\_accuracy zrobione przez
 
-
+MLflow i pobrane przez DagsHub.
 
 
 
