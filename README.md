@@ -1,4 +1,4 @@
-Plik kod.py zawiera pobrany kod z colab.
+Plik kod.py zawiera pobrany kod z Google Colab.
 
 W folderach 'Folder\_z\_eksperyment{i}' znajdują się pliki png z accuracy, loss, val\_loss i val\_accuracy zrobione przez
 
