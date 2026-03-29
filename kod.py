@@ -72,4 +72,3 @@ for exp in experiments:
     model.fit(train_images, train_labels, epochs=10,
               validation_data=(test_images, test_labels), verbose=1)
 
-!pip install tensorboard
