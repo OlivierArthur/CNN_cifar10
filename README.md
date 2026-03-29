@@ -1,12 +1,7 @@
-Plik kod.py zawiera pobrany kod z Google Colab.
+Środowisko: Google Colab
 
-W folderach 'Folder\_z\_eksperyment{i}' znajdują się pliki png z accuracy, loss, val\_loss i val\_accuracy zrobione przez
+Główna wykorzystana biblioteka: TensorFlow
 
-MLflow i pobrane przez DagsHub.
-
-
-
-Pojawił się problem z pobraniem mlflow i dagshub w colab.
-
-Trzeba dodać '--ignore-installed blinker'.
+Projekt polega na śledzeniu parametrów treningowych i optymalizowaniu sieci CNN na zbiorze CIFAR10 za pomocą dagshub i mlflow. 
+Link do eksperymentów na dagshub: 
 
